@@ -1,0 +1,77 @@
+# --- Metadata ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.lock
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+
+# --- Xcode & Artifacts ---
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.moved-aside
+*.log
+
+# --- Firebase & Google Services ---
+GoogleService-Info.plist
+
+# --- Fastlane ---
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/README.md
+# fastlane/Appfile
+# fastlane/Deliverfile
+fastlane/gc_keys.json
+*.authkey
+*.p8
+
+# --- Env Variables ---
+.env
+.env.*
+!.env.example
+*.xcconfig
+Secrets.swift
+Secrets.json
+
+# --- Security & Certificates ---
+*.keychain
+*.p12
+*.cer
+*.cert
+*.pem
+*.mobileprovision
+*.provisionprofile
+match_*.tar.gz
+
+# --- CI/CD (GitHub Actions) ---
+.github/workflows/*.log
+
+# --- Swift Package Manager ---
+.build/
+.swiftpm/xcode/
+.swiftpm/configuration/
+
+# --- Docs ---
+*.md
+!README.md
+!**/README.md
